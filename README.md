@@ -1,4 +1,6 @@
-# intro-component-with-sign-form-masster
+# intro-component-with-sign-form-master
+
+# NOTE TO SELF
 
 # THE CHALLENGE
 The challenge is to build a signup form using HTML, CSS and JavaScript.
