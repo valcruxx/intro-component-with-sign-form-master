@@ -19,4 +19,4 @@ This being my first JavaScript project came with its fair share of challenges an
 
 (1) The text  in the placeholders are suppose to be empty upon click and i was not able to do that.
 (2) There should be a little bit of padding on the error icon
-(3) The exa,ple email that pops up pon clicking the form should have a red color
+(3) The example email (email@example.com) that pops up pon clicking the form should have a red color
