@@ -54,10 +54,9 @@ form {
 }
 input {
   padding: 10px;
-  margin: 10px;
   border: 1px solid rgb(200, 200, 200);
   border-radius: 5px;
-  width: 350px;
+  width: 100%;
 }
 .error {
   display: none;
