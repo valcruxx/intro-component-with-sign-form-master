@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+  font-size: 16px;
+}
+main {
+  background: url(images/bg-intro-desktop.png), hsl(0, 100%, 74%);
+  width: 100%;
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+#learn {
+  color: white;
+  max-width: 50%;
+}
+#learn h1 {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 56px;
+}
+#learn p {
+  margin: 20px 0;
+  font-size: 14px;
+}
+
+#trial {
+  background: hsl(248, 32%, 49%);
+  margin: 15px 0;
+  padding: 15px;
+  text-align: center;
+  border-radius: 10px;
+  color: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 5px 0 0 rgba(0, 0, 0, 0.3);
+}
+#free-trial {
+  font-weight: 400;
+  font-size: 12px;
+}
+#free-trial span {
+  font-weight: 700;
+  font-size: 12px;
+}
+form {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  border-radius: 10px;
+}
+input {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 5px;
+  width: 350px;
+}
+.error {
+  display: none;
+}
+.error i {
+  font-size: 10px;
+  color: hsl(0, 100%, 74%);
+  position: relative;
+  left: 215px;
+  font-weight: 600;
+}
+#button {
+  background: hsl(154, 59%, 51%);
+  padding: 15px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 12px;
+}
+#terms {
+  color: hsl(246, 25%, 77%);
+  font-weight: 400;
+  font-size: 10px;
+  margin: 10px 20px;
+  text-align: center;
+}
+#terms span {
+  font-size: 10px;
+  color: hsl(0, 100%, 74%);
+  font-weight: 700;
+}
+.attribution {
+  background: hsl(0, 100%, 74%);
+  font-size: 11px;
+  text-align: center;
+  padding: 10px;
+  color: hsl(226, 7%, 37%);
+}
+.attribution a {
+  color: hsl(228, 83%, 88%);
+  font-size: 11px;
+}
+@media only screen and (max-width: 768px) {
+  main {
+    background: url(images/bg-intro-mobile.png), hsl(0, 100%, 74%);
+    flex-direction: column;
+    height: auto;
+    padding: 0;
+  }
+  #learn {
+    margin: 0;
+    min-width: 100%;
+  }
+  #learn h1 {
+    font-size: 20px;
+    line-height: 25px;
+    padding: 0 80px;
+    text-align: center;
+  }
+  #learn p {
+    text-align: center;
+    font: 10px;
+    padding: 0 40px;
+  }
+  #form-section {
+    padding: 10px;
+  }
+  #trial {
+    padding: 15px 100px;
+    line-height: 20px;
+  }
+}
