@@ -54,7 +54,7 @@ form {
 }
 input {
   padding: 10px;
-  margin :10px 0;
+  margin: 10px 0;
   border: 1px solid rgb(200, 200, 200);
   border-radius: 5px;
   width: 100%;
@@ -131,5 +131,12 @@ input {
   #trial {
     padding: 15px 100px;
     line-height: 20px;
+  }
+  .error {
+    text-align: right;
+  }
+  .error i {
+    position: relative;
+    left: 0;
   }
 }
